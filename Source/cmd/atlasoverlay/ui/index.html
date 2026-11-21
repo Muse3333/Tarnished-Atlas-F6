@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#161b18">
+  <title>Tarnished Atlas</title>
+  <link rel="stylesheet" href="vendor/leaflet.css">
+  <link rel="stylesheet" href="overlay.css">
+  <script defer src="vendor/leaflet.js"></script>
+  <script type="module" src="overlay.mjs"></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">✧</span>
+      <div><p class="eyebrow">ELDEN RING</p><h1>Tarnished Atlas</h1></div>
+    </div>
+    <button id="close" class="subtle" title="Return control to Elden Ring" type="button"><kbd>Esc</kbd> Close</button>
+  </header>
+  <nav class="toolbar" aria-label="Overlay tabs">
+    <div id="views">
+      <button id="quests-tab" type="button" aria-pressed="true">Quests</button>
+      <button id="map-tab" type="button" aria-pressed="false">Map <span id="pinned-total" hidden></span></button>
+      <button id="weapons-tab" type="button" aria-pressed="false">Weapons</button>
+      <button id="checklist-tab" type="button" aria-pressed="false">Checklist</button>
+      <button id="history-tab" type="button" aria-pressed="false">Quest history</button>
+      <button id="endings-tab" type="button" aria-pressed="false">Ending planner</button>
+      <button id="settings-tab" type="button" aria-pressed="false">Minimap settings</button>
+    </div>
+    <div class="character-bar">
+      <label>Character <select id="character"><option value="0">Auto-detect</option></select></label>
+      <span id="status" role="status">Reading save…</span>
+    </div>
+  </nav>
+  <main>
+    <section id="quests-view" aria-label="Quest journal">
+      <div id="quest-campaigns" class="quest-campaigns" role="tablist" aria-label="Quest campaign">
+        <button id="quest-base-tab" type="button" role="tab" data-campaign="base" aria-selected="true" aria-controls="quest-panel">Lands Between</button>
+        <button id="quest-shadow-tab" type="button" role="tab" data-campaign="shadow" aria-selected="false" aria-controls="quest-panel" tabindex="-1">Shadow of the Erdtree</button>
+      </div>
+      <div id="quest-panel" role="tabpanel" aria-labelledby="quest-base-tab">
+        <aside class="quest-list">
+          <div class="list-head">
+            <h2>Quest journal</h2>
+            <input id="quest-search" type="search" placeholder="Search quest names" aria-label="Search quest names" autocomplete="off">
+            <label class="spoiler-mode"><input id="spoiler-free" type="checkbox" disabled> Spoiler-free journal</label>
+            <div class="list-filter" aria-label="Quest filter">
+              <button id="all-quests" data-filter="all" type="button" aria-pressed="true">All quests</button>
+              <button data-filter="not-started" type="button" aria-pressed="false">Not started</button>
+              <button data-filter="in-progress" type="button" aria-pressed="false">In progress</button>
+              <button data-filter="completed" type="button" aria-pressed="false">Completed</button>
+              <button id="pinned-quests" data-filter="pinned" type="button" aria-pressed="false">Pinned</button>
+              <button id="missable-quests" data-filter="missable" type="button" aria-pressed="false">Missable</button>
+              <button id="nearby-quests" data-filter="nearby" type="button" aria-pressed="false">Nearby</button>
+            </div>
+          </div>
+          <nav id="quest-picker" aria-label="Questlines"></nav>
+          <p id="pin-notice" class="pin-notice" role="status" hidden></p>
+        </aside>
+        <article class="journal">
+          <section id="objective" aria-label="Selected quest"></section>
+          <ol id="steps" class="steps" aria-label="Quest steps"></ol>
+        </article>
+      </div>
+    </section>
+    <section id="map-view" aria-label="Quest map" hidden>
+      <div id="map" aria-label="The Lands Between interactive map"></div>
+      <section class="map-card" aria-label="Pins on map">
+        <h2 id="map-title">Quest pins</h2>
+        <p class="map-key">! Unpinned · 4 Pinned quest · ◆ Quest giver</p>
+        <p class="waypoint-hint">Right-click the map to set a waypoint.</p>
+        <div id="map-navigation" hidden></div>
+        <div id="map-legend"></div>
+      </section>
+      <div class="map-controls">
+        <label>Map <select id="map-realm"><option value="base">Lands Between</option><option value="shadow">Realm of Shadow</option></select></label>
+        <div class="zoom-controls">
+          <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
+          <button id="zoom-out" type="button" aria-label="Zoom out">−</button>
+        </div>
+        <button id="remaining-pins" type="button">Fit pins</button>
+        <button id="fit-world" type="button">Fit world</button>
+        <button id="locate-player" type="button" disabled>Find player</button>
+        <button id="center-waypoint" type="button">Waypoint at center</button>
+        <button id="clear-waypoint" type="button" hidden>Clear waypoint</button>
+      </div>
+      <div class="credit" id="map-credit">Map and coordinates © Map Genie</div>
+    </section>
+    <section id="weapons-view" class="catalogue-view" aria-labelledby="weapons-title" hidden>
+      <h2 id="weapons-title">Weapon finder</h2>
+      <div class="catalogue-controls">
+        <label>Weapon <input id="weapon-search" type="search" placeholder="Search by name or location" autocomplete="off"></label>
+        <label>Build <select id="weapon-build"><option value="">All builds</option><option value="0">Strength</option><option value="1">Dexterity</option><option value="2">Intelligence</option><option value="3">Faith</option><option value="4">Arcane</option></select></label>
+        <label>Affinity <select id="weapon-affinity"></select></label>
+        <label>Source <select id="weapon-source"><option value="">Any source</option></select></label>
+        <label>Game <select id="weapon-realm"><option value="all">Base game &amp; DLC</option><option value="base">Base game</option><option value="shadow">Shadow of the Erdtree</option></select></label>
+      </div>
+      <div id="weapon-compare" class="comparison" hidden></div>
+      <p id="weapon-count" class="catalogue-summary" role="status"></p>
+      <div id="weapon-results" class="catalogue-results"></div>
+      <button id="weapon-more" type="button" hidden>Show more weapons</button>
+    </section>
+    <section id="checklist-view" class="catalogue-view" aria-labelledby="checklist-title" hidden>
+      <h2 id="checklist-title">Boss &amp; dungeon checklist</h2>
+      <div class="catalogue-controls">
+        <label>Region <select id="checklist-region"><option value="current">Current region</option><option value="all">All regions</option></select></label>
+        <label>Show <select id="checklist-kind"><option value="bosses">Bosses</option><option value="dungeons">Dungeons</option></select></label>
+        <label>Status <select id="checklist-status"><option value="all">All statuses</option><option value="remaining">Unfinished</option><option value="complete">Cleared</option></select></label>
+        <label>Name <input id="checklist-search" type="search" placeholder="Search bosses or dungeons" autocomplete="off"></label>
+      </div>
+      <p id="checklist-count" class="catalogue-summary" role="status"></p>
+      <div id="checklist-results" class="catalogue-results"></div>
+    </section>
+    <section id="history-view" class="catalogue-view" aria-labelledby="history-title" hidden>
+      <h2 id="history-title">Quest history</h2>
+      <p class="catalogue-summary">Changes detected in your character’s saved quests.</p>
+      <div id="history-results"></div>
+    </section>
+    <section id="endings-view" aria-labelledby="endings-title" hidden>
+      <h2 id="endings-title">Ending planner</h2>
+      <label for="desired-ending">Choose an ending to reveal its route</label>
+      <select id="desired-ending" disabled><option value="">Select an ending</option></select>
+      <div id="ending-plan"></div>
+    </section>
+    <section id="settings-view" aria-labelledby="settings-title" hidden>
+      <h2 id="settings-title">Minimap settings</h2>
+      <form id="minimap-settings">
+        <label for="hud-size">Size <output id="hud-size-value" for="hud-size"></output></label>
+        <input id="hud-size" type="range" min="180" max="440" step="10" value="310">
+        <label for="hud-opacity">Opacity <output id="hud-opacity-value" for="hud-opacity"></output></label>
+        <input id="hud-opacity" type="range" min="30" max="100" step="5" value="100">
+        <label for="hud-corner">Screen corner</label>
+        <select id="hud-corner">
+          <option value="top-right">Top right</option><option value="top-left">Top left</option>
+          <option value="bottom-right">Bottom right</option><option value="bottom-left">Bottom left</option>
+        </select>
+        <label for="hud-zoom">Default zoom <output id="hud-zoom-value" for="hud-zoom"></output></label>
+        <input id="hud-zoom" type="range" min="8" max="17" step="0.25" value="13.5">
+        <label for="hud-guide-quest">Objective arrow</label>
+        <select id="hud-guide-quest"><option value="">Nearest pinned quest</option></select>
+        <label class="north-option"><input id="hud-north" type="checkbox" checked> Show north marker</label>
+        <div class="settings-actions">
+          <button id="save-minimap-settings" type="submit">Save settings</button>
+          <span id="minimap-settings-status" role="status"></span>
+        </div>
+      </form>
+      <p class="minimap-hotkey"><kbd>F7</kbd> Show or hide the minimap while playing</p>
+    </section>
+    <aside class="minimap" aria-label="Minimap">
+      <div id="minimap" aria-label="Local quest map"></div>
+      <div class="minimap-controls">
+        <button id="mini-zoom-in" type="button" aria-label="Zoom in on minimap">+</button>
+        <button id="mini-zoom-out" type="button" aria-label="Zoom out on minimap">−</button>
+        <button id="mini-follow" type="button" aria-pressed="true" disabled>Follow</button>
+      </div>
+      <div class="minimap-status">
+        <span id="mini-status">Waiting for player</span>
+      </div>
+      <span id="mini-north" class="minimap-navigation" aria-hidden="true" hidden>N</span>
+      <div id="mini-guide" class="minimap-navigation" aria-label="Navigation direction" hidden>
+        <span class="mini-guide-arrow" aria-hidden="true"></span>
+        <span id="mini-guide-distance"></span>
+      </div>
+      <p id="mini-route" hidden></p>
+    </aside>
+  </main>
+  <div id="quest-updates" aria-live="polite" aria-relevant="additions text"></div>
+</body>
+</html>

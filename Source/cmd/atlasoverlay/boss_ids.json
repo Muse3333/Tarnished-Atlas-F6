@@ -1,0 +1,2194 @@
+[
+  {
+    "flag": 10000850,
+    "name": "Margit, the Fell Omen",
+    "region": "Stormhill",
+    "id": 9100,
+    "point": {
+      "lat": 0.63529068,
+      "lng": -0.74229057,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 10000800,
+    "name": "Godrick the Grafted",
+    "region": "Stormveil Castle",
+    "id": 9101,
+    "point": {
+      "lat": 0.65098142,
+      "lng": -0.75160415,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 10010800,
+    "name": "Grafted Scion",
+    "region": "Stormveil Castle",
+    "id": 9103
+  },
+  {
+    "flag": 11000800,
+    "name": "Morgott, the Omen King",
+    "region": "Leyndell, Royal Capital",
+    "id": 9104,
+    "point": {
+      "lat": 0.76765113,
+      "lng": -0.68965726,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 11000850,
+    "name": "Godfrey, First Elden Lord",
+    "region": "Leyndell, Royal Capital",
+    "id": 9105,
+    "point": {
+      "lat": 0.76917608,
+      "lng": -0.69709797,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 11050850,
+    "name": "Sir Gideon Ofnir, the All-Knowing",
+    "region": "Leyndell, Capital of Ash",
+    "id": 9106,
+    "point": {
+      "lat": 0.76916706,
+      "lng": -0.69709411,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 11050800,
+    "name": "Hoarah Loux, Warrior",
+    "region": "Leyndell, Capital of Ash",
+    "id": 9107,
+    "point": {
+      "lat": 0.7675124,
+      "lng": -0.68976846,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 12040800,
+    "name": "Astel, Naturalborn of the Void",
+    "region": "Underground",
+    "id": 9108,
+    "point": {
+      "lat": 0.31150408,
+      "lng": -0.82568088,
+      "layer": "underground"
+    }
+  },
+  {
+    "flag": 12010800,
+    "name": "Dragonkin Soldier of Nokstella",
+    "region": "Underground",
+    "id": 9109,
+    "point": {
+      "lat": 0.3843611,
+      "lng": -0.7930172,
+      "layer": "underground"
+    }
+  },
+  {
+    "flag": 12020800,
+    "name": "Valiant Gargoyles",
+    "region": "Underground",
+    "id": 9110,
+    "point": {
+      "lat": 0.30540397,
+      "lng": -0.67620365,
+      "layer": "underground"
+    }
+  },
+  {
+    "flag": 12030850,
+    "name": "Lichdragon Fortissax",
+    "region": "Underground",
+    "id": 9111,
+    "point": {
+      "lat": 0.43858586,
+      "lng": -0.70478887,
+      "layer": "underground"
+    }
+  },
+  {
+    "flag": 12050800,
+    "name": "Mohg, Lord of Blood",
+    "region": "Underground",
+    "id": 9112,
+    "point": {
+      "lat": 0.28411156,
+      "lng": -0.65491825,
+      "layer": "underground"
+    }
+  },
+  {
+    "flag": 13000850,
+    "name": "Godskin Duo",
+    "region": "Crumbling Farum Azula",
+    "id": 9114,
+    "point": {
+      "lat": 0.81937697,
+      "lng": -0.59345685,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 13000830,
+    "name": "Dragonlord Placidusax",
+    "region": "Crumbling Farum Azula",
+    "id": 9115,
+    "point": {
+      "lat": 0.81607222,
+      "lng": -0.59268451,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 13000800,
+    "name": "Maliketh, the Black Blade",
+    "region": "Crumbling Farum Azula",
+    "id": 9116,
+    "point": {
+      "lat": 0.81799137,
+      "lng": -0.58480847,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 14000850,
+    "name": "Red Wolf of Radagon",
+    "region": "Academy of Raya Lucaria",
+    "id": 9117,
+    "point": {
+      "lat": 0.71281192,
+      "lng": -0.80044734,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 14000800,
+    "name": "Rennala, Queen of the Full Moon",
+    "region": "Academy of Raya Lucaria",
+    "id": 9118,
+    "point": {
+      "lat": 0.72137393,
+      "lng": -0.80381942,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 15000850,
+    "name": "Lorretta, Knight of the Haligtree",
+    "region": "Miquella's Haligtree",
+    "id": 9119,
+    "point": {
+      "lat": 0.88272924,
+      "lng": -0.63603227,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 15000800,
+    "name": "Malenia, Blade of Miquella",
+    "region": "Miquella's Haligtree",
+    "id": 9120,
+    "point": {
+      "lat": 0.88952515,
+      "lng": -0.64432961,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 16000850,
+    "name": "Godskin Noble",
+    "region": "Volcano Manor",
+    "id": 9121,
+    "point": {
+      "lat": 0.7976677,
+      "lng": -0.78803279,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 16000800,
+    "name": "Rykard, Lord of Blasphemy",
+    "region": "Volcano Manor",
+    "id": 9122,
+    "point": {
+      "lat": 0.80165552,
+      "lng": -0.78649565,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 19000800,
+    "name": "Elden Beast",
+    "region": "Leyndell, Capital of Ash",
+    "id": 9123
+  },
+  {
+    "flag": 35000800,
+    "name": "Mohg, the Omen",
+    "region": "Leyndell, Royal Capital",
+    "id": 9125,
+    "point": {
+      "lat": 0.78228405,
+      "lng": -0.68827685,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 39200800,
+    "name": "Magma Wyrm Makar",
+    "region": "Liurnia of the Lakes",
+    "id": 9126,
+    "point": {
+      "lat": 0.77403146,
+      "lng": -0.78237621,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 18000800,
+    "name": "Ulcerated Tree Spirit (Limgrave)",
+    "region": "Limgrave",
+    "id": 9128,
+    "point": {
+      "lat": 0.61309691,
+      "lng": -0.71756593,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 16000860,
+    "name": "Abductor Virgins",
+    "region": "Volcano Manor",
+    "id": 9129,
+    "point": {
+      "lat": 0.79533981,
+      "lng": -0.78041309,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1252380800,
+    "name": "Starscourge Radahn",
+    "region": "Redmane Castle",
+    "id": 9130
+  },
+  {
+    "flag": 1252520800,
+    "name": "Fire Giant",
+    "region": "Flame Peak",
+    "id": 9131
+  },
+  {
+    "flag": 12080800,
+    "name": "Ancestor Spirit",
+    "region": "Underground",
+    "id": 9132
+  },
+  {
+    "flag": 12090800,
+    "name": "Regal Ancestor Spirit",
+    "region": "Underground",
+    "id": 9133
+  },
+  {
+    "flag": 12020850,
+    "name": "Mimic Tear",
+    "region": "Underground",
+    "id": 9134,
+    "point": {
+      "lat": 0.27427169,
+      "lng": -0.68387116,
+      "layer": "underground"
+    }
+  },
+  {
+    "flag": 12030800,
+    "name": "Fia's Champions",
+    "region": "Underground",
+    "id": 9135,
+    "point": {
+      "lat": 0.44157542,
+      "lng": -0.70141315,
+      "layer": "underground"
+    }
+  },
+  {
+    "flag": 20000800,
+    "name": "Divine Beast Dancing Lion (Gravesite Plain)",
+    "region": "Gravesite Plain",
+    "id": 9140,
+    "point": {
+      "lat": 0.28891543,
+      "lng": 1.90058288,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 20010800,
+    "name": "Promised Consort Radahn",
+    "region": "Enir-Ilim",
+    "id": 9143,
+    "point": {
+      "lat": 0.2927406,
+      "lng": 1.88874382,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 21000850,
+    "name": "Golden Hippopotamus",
+    "region": "Shadow Keep",
+    "id": 9144,
+    "point": {
+      "lat": 0.32251097,
+      "lng": 1.94828998,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 21010800,
+    "name": "Messmer the Impaler",
+    "region": "Shadow Keep",
+    "id": 9146,
+    "point": {
+      "lat": 0.33303055,
+      "lng": 1.94730692,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 22000800,
+    "name": "Putrescent Knight",
+    "region": "Cerulean Coast",
+    "id": 9148,
+    "point": {
+      "lat": 0.19840527,
+      "lng": 1.94658556,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 25000800,
+    "name": "Metyr, Mother of Fingers",
+    "region": "Scadu Altus",
+    "id": 9155,
+    "point": {
+      "lat": 0.34459453,
+      "lng": 1.95300539,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 28000800,
+    "name": "Midra, Lord of Frenzied Flame",
+    "region": "Abyssal Woods",
+    "id": 9156,
+    "point": {
+      "lat": 0.24623663,
+      "lng": 1.95125547,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2044450800,
+    "name": "Romina, Saint of the Bud",
+    "region": "Ancient Ruins of Rauh",
+    "id": 9160,
+    "point": {
+      "lat": 0.30614743,
+      "lng": 1.89548291,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2052430800,
+    "name": "Jori, Elder Inquisitor",
+    "region": "Abyssal Woods",
+    "id": 9161,
+    "point": {
+      "lat": 0.28145915,
+      "lng": 1.98287134,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2050480800,
+    "name": "Scadutree Avatar",
+    "region": "Shadow Keep",
+    "id": 9162,
+    "point": {
+      "lat": 0.3344657,
+      "lng": 1.9589829,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2054390800,
+    "name": "Bayle, the Dread",
+    "region": "Jagged Peak",
+    "id": 9163,
+    "point": {
+      "lat": 0.23535901,
+      "lng": 2.0134487,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2049480800,
+    "name": "Commander Gaius",
+    "region": "Scaduview",
+    "id": 9164,
+    "point": {
+      "lat": 0.33400287,
+      "lng": 1.95629223,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 34130800,
+    "name": "Godskin Apostle (Greyoll's Dragonbarrow)",
+    "region": "Greyoll's Dragonbarrow",
+    "id": 9173,
+    "point": {
+      "lat": 0.66600316,
+      "lng": -0.64492716,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 34140850,
+    "name": "Fell Twins",
+    "region": "Capital Outskirts",
+    "id": 9174,
+    "point": {
+      "lat": 0.77172944,
+      "lng": -0.66637286,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1043300800,
+    "name": "Leonine Misbegotten",
+    "region": "Weeping Peninsula",
+    "id": 9180,
+    "point": {
+      "lat": 0.54894559,
+      "lng": -0.71546153,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1035500800,
+    "name": "Royal Knight Loretta",
+    "region": "Liurnia of the Lakes",
+    "id": 9181,
+    "point": {
+      "lat": 0.77329437,
+      "lng": -0.80341172,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1039540800,
+    "name": "Elemer of the Briar",
+    "region": "Altus Plateau",
+    "id": 9182,
+    "point": {
+      "lat": 0.81534304,
+      "lng": -0.76040505,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1051360800,
+    "name": "Crucible Knight & Misbegotten Warrior",
+    "region": "Redmane Castle",
+    "id": 9183,
+    "point": {
+      "lat": 0.61673729,
+      "lng": -0.62208581,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1051570800,
+    "name": "Commander Niall",
+    "region": "Mountaintops of the Giants",
+    "id": 9184,
+    "point": {
+      "lat": 0.85489554,
+      "lng": -0.62291545,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 2048440800,
+    "name": "Rellana, Twin Moon Knight",
+    "region": "Gravesite Plain",
+    "id": 9190,
+    "point": {
+      "lat": 0.29182063,
+      "lng": 1.93945358,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 30000800,
+    "name": "Cemetery Shade (Weeping Peninsula)",
+    "region": "Weeping Peninsula",
+    "id": 9200,
+    "point": {
+      "lat": 0.58503644,
+      "lng": -0.71407378,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30010800,
+    "name": "Erdtree Burial Watchdog (Weeping Peninsula)",
+    "region": "Weeping Peninsula",
+    "id": 9201,
+    "point": {
+      "lat": 0.58652788,
+      "lng": -0.69366461,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30020800,
+    "name": "Erdtree Burial Watchdog (Limgrave)",
+    "region": "Limgrave",
+    "id": 9202,
+    "point": {
+      "lat": 0.62931306,
+      "lng": -0.73173778,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30110800,
+    "name": "Black Knife Assassin (Stormhill)",
+    "region": "Stormhill",
+    "id": 9203,
+    "point": {
+      "lat": 0.64905568,
+      "lng": -0.72317848,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30040800,
+    "name": "Grave Warden Duelist (Limgrave)",
+    "region": "Limgrave",
+    "id": 9204,
+    "point": {
+      "lat": 0.64111388,
+      "lng": -0.71487342,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30050800,
+    "name": "Cemetery Shade (Bellum Highway)",
+    "region": "Bellum Highway",
+    "id": 9205,
+    "point": {
+      "lat": 0.75218305,
+      "lng": -0.76617485,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30030800,
+    "name": "Spirit-Caller Snail (Liurnia of the Lakes)",
+    "region": "Liurnia of the Lakes",
+    "id": 9206,
+    "point": {
+      "lat": 0.6936269,
+      "lng": -0.82018862,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30060800,
+    "name": "Erdtree Burial Watchdog (Liurnia of the Lakes)",
+    "region": "Liurnia of the Lakes",
+    "id": 9207,
+    "point": {
+      "lat": 0.66930446,
+      "lng": -0.75720438,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30080800,
+    "name": "Ancient Hero of Zamor (Altus Plateau)",
+    "region": "Altus Plateau",
+    "id": 9208,
+    "point": {
+      "lat": 0.7915583,
+      "lng": -0.7329285,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30090800,
+    "name": "Red Wolf of the Champion",
+    "region": "Mt. Gelmir",
+    "id": 9209,
+    "point": {
+      "lat": 0.80643011,
+      "lng": -0.78636845,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30100800,
+    "name": "Crucible Knight & Crucible Knight Ordovis",
+    "region": "Capital Outskirts",
+    "id": 9210,
+    "point": {
+      "lat": 0.79523618,
+      "lng": -0.69681052,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30120800,
+    "name": "Perfumer Tricia & Misbegotten Warrior",
+    "region": "Altus Plateau",
+    "id": 9211,
+    "point": {
+      "lat": 0.79037901,
+      "lng": -0.79071148,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30070800,
+    "name": "Erdtree Burial Watchdog (Altus Plateau)",
+    "region": "Altus Plateau",
+    "id": 9212,
+    "point": {
+      "lat": 0.80062956,
+      "lng": -0.77454472,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30130800,
+    "name": "Grave Warden Duelist (Capital Outskirts)",
+    "region": "Capital Outskirts",
+    "id": 9213,
+    "point": {
+      "lat": 0.79433599,
+      "lng": -0.69199508,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30140800,
+    "name": "Erdtree Burial Watchdog (Caelid)",
+    "region": "Caelid",
+    "id": 9214,
+    "point": {
+      "lat": 0.65766531,
+      "lng": -0.67550451,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30150800,
+    "name": "Cemetery Shade (Caelid)",
+    "region": "Caelid",
+    "id": 9215,
+    "point": {
+      "lat": 0.62625226,
+      "lng": -0.65382776,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30160800,
+    "name": "Putrid Tree Spirit",
+    "region": "Redmane Castle",
+    "id": 9216,
+    "point": {
+      "lat": 0.6662787,
+      "lng": -0.62089594,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30170800,
+    "name": "Ancient Hero of Zamor (Flame Peak)",
+    "region": "Flame Peak",
+    "id": 9217,
+    "point": {
+      "lat": 0.80039513,
+      "lng": -0.63755297,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30180800,
+    "name": "Ulcerated Tree Spirit (Mountaintops of the Giants)",
+    "region": "Mountaintops of the Giants",
+    "id": 9218,
+    "point": {
+      "lat": 0.80871448,
+      "lng": -0.64322557,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30190800,
+    "name": "Putrid Grave Warden Duelist",
+    "region": "Consecrated Snowfield",
+    "id": 9219,
+    "point": {
+      "lat": 0.81698073,
+      "lng": -0.63420592,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30200800,
+    "name": "Stray Mimic Tear",
+    "region": "Consecrated Snowfield",
+    "id": 9220,
+    "point": {
+      "lat": 0.8000615,
+      "lng": -0.65204072,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 30050850,
+    "name": "Black Knife Assassin (Bellum Highway)",
+    "region": "Bellum Highway",
+    "id": 9221,
+    "point": {
+      "lat": 0.74772483,
+      "lng": -0.7684355,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 35000850,
+    "name": "Esgar, Priest of Blood",
+    "region": "Leyndell, Royal Capital",
+    "id": 9222,
+    "point": {
+      "lat": 0.77258728,
+      "lng": -0.70020019,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31020800,
+    "name": "Miranda the Blighted Bloom",
+    "region": "Weeping Peninsula",
+    "id": 9230,
+    "point": {
+      "lat": 0.5810562,
+      "lng": -0.73848973,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31010800,
+    "name": "Runebear",
+    "region": "Weeping Peninsula",
+    "id": 9231,
+    "point": {
+      "lat": 0.58698903,
+      "lng": -0.70947278,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31030800,
+    "name": "Beastman of Farum Azula (Limgrave)",
+    "region": "Limgrave",
+    "id": 9233,
+    "point": {
+      "lat": 0.62963255,
+      "lng": -0.73032341,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31150800,
+    "name": "Demi-Human Chiefs",
+    "region": "Limgrave",
+    "id": 9234,
+    "point": {
+      "lat": 0.61089303,
+      "lng": -0.73479914,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31170800,
+    "name": "Guardian Golem",
+    "region": "Limgrave",
+    "id": 9235,
+    "point": {
+      "lat": 0.65451695,
+      "lng": -0.71096057,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31040800,
+    "name": "Cleanrot Knight (Liurnia of the Lakes)",
+    "region": "Liurnia of the Lakes",
+    "id": 9236,
+    "point": {
+      "lat": 0.65196833,
+      "lng": -0.75389256,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31050800,
+    "name": "Bloodhound Knight",
+    "region": "Liurnia of the Lakes",
+    "id": 9237,
+    "point": {
+      "lat": 0.66912204,
+      "lng": -0.78733958,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31060800,
+    "name": "Crystalian Duo (Liurnia of the Lakes)",
+    "region": "Liurnia of the Lakes",
+    "id": 9238,
+    "point": {
+      "lat": 0.71852852,
+      "lng": -0.80482604,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31070800,
+    "name": "Kindred of Rot Duo",
+    "region": "Mt. Gelmir",
+    "id": 9239,
+    "point": {
+      "lat": 0.81291663,
+      "lng": -0.78533544,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31090800,
+    "name": "Demi-Human Queen Margot",
+    "region": "Mt. Gelmir",
+    "id": 9240,
+    "point": {
+      "lat": 0.82068215,
+      "lng": -0.78281502,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31180800,
+    "name": "Omenkiller & Miranda the Blighted Bloom",
+    "region": "Altus Plateau",
+    "id": 9241,
+    "point": {
+      "lat": 0.78781996,
+      "lng": -0.73978234,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31190800,
+    "name": "Black Knife Assassin (Sage's Cave)",
+    "region": "Altus Plateau",
+    "id": 9242,
+    "point": {
+      "lat": 0.79040261,
+      "lng": -0.77445095,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31210800,
+    "name": "Frenzied Duelist",
+    "region": "Caelid",
+    "id": 9243,
+    "point": {
+      "lat": 0.63923813,
+      "lng": -0.67736249,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31100800,
+    "name": "Beastman of Farum Azula (Greyoll's Dragonbarrow)",
+    "region": "Greyoll's Dragonbarrow",
+    "id": 9244,
+    "point": {
+      "lat": 0.66003031,
+      "lng": -0.6247124,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31200800,
+    "name": "Cleanrot Knight (Greyoll's Dragonbarrow)",
+    "region": "Greyoll's Dragonbarrow",
+    "id": 9245,
+    "point": {
+      "lat": 0.65447223,
+      "lng": -0.65176688,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31110800,
+    "name": "Putrid Crystallian Trio",
+    "region": "Caelid",
+    "id": 9246,
+    "point": {
+      "lat": 0.65408469,
+      "lng": -0.64343418,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31120800,
+    "name": "Misbegotten Crusader",
+    "region": "Consecrated Snowfield",
+    "id": 9247,
+    "point": {
+      "lat": 0.84012058,
+      "lng": -0.63829725,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31220800,
+    "name": "Spirit-Caller Snail (Mountaintops of the Giants)",
+    "region": "Mountaintops of the Giants",
+    "id": 9248,
+    "point": {
+      "lat": 0.83001509,
+      "lng": -0.60632957,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 31190850,
+    "name": "Necromancer Garris",
+    "region": "Altus Plateau",
+    "id": 9249,
+    "point": {
+      "lat": 0.7890086,
+      "lng": -0.77542341,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 32000800,
+    "name": "Scaly Misbegotten",
+    "region": "Weeping Peninsula",
+    "id": 9260,
+    "point": {
+      "lat": 0.58113074,
+      "lng": -0.71057879,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 32010800,
+    "name": "Stonedigger Troll (Limgrave)",
+    "region": "Limgrave",
+    "id": 9261,
+    "point": {
+      "lat": 0.62613129,
+      "lng": -0.72395164,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 32020800,
+    "name": "Crystalian",
+    "region": "Liurnia of the Lakes",
+    "id": 9262,
+    "point": {
+      "lat": 0.73695982,
+      "lng": -0.77951212,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 32040800,
+    "name": "Stonedigger Troll (Altus Plateau)",
+    "region": "Altus Plateau",
+    "id": 9263,
+    "point": {
+      "lat": 0.79559444,
+      "lng": -0.77089416,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 34120800,
+    "name": "Onyx Lord (Capital Outskirts)",
+    "region": "Capital Outskirts",
+    "id": 9264,
+    "point": {
+      "lat": 0.76056966,
+      "lng": -0.71627679,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 32050800,
+    "name": "Crystalian Duo (Altus Plateau)",
+    "region": "Altus Plateau",
+    "id": 9265,
+    "point": {
+      "lat": 0.78917741,
+      "lng": -0.73345984,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 32070800,
+    "name": "Magma Wyrm (Caelid)",
+    "region": "Caelid",
+    "id": 9266,
+    "point": {
+      "lat": 0.65494594,
+      "lng": -0.68207314,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 32080800,
+    "name": "Fallingstar Beast (Caelid)",
+    "region": "Caelid",
+    "id": 9267,
+    "point": {
+      "lat": 0.65842503,
+      "lng": -0.65103526,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 32110800,
+    "name": "Astel, Stars of Darkness",
+    "region": "Consecrated Snowfield",
+    "id": 9268,
+    "point": {
+      "lat": 0.83031701,
+      "lng": -0.66798622,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 40000800,
+    "name": "Death Knight (Gravesite Plain)",
+    "region": "Gravesite Plain",
+    "id": 9270,
+    "point": {
+      "lat": 0.31027767,
+      "lng": 1.9125412,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 40010800,
+    "name": "Death Knight (Rauh Base)",
+    "region": "Rauh Base",
+    "id": 9271,
+    "point": {
+      "lat": 0.3058544,
+      "lng": 1.90582975,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 41000800,
+    "name": "Demi-Human Swordmaster Onze",
+    "region": "Gravesite Plain",
+    "id": 9275,
+    "point": {
+      "lat": 0.28123917,
+      "lng": 1.90120743,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 41010800,
+    "name": "Curseblade Labirith",
+    "region": "Scadu Altus",
+    "id": 9276,
+    "point": {
+      "lat": 0.28266888,
+      "lng": 1.95545358,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 41020800,
+    "name": "Lamenter",
+    "region": "Charo's Hidden Grave",
+    "id": 9277,
+    "point": {
+      "lat": 0.24521551,
+      "lng": 1.92639873,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 43000800,
+    "name": "Chief Bloodfiend",
+    "region": "Gravesite Plain",
+    "id": 9280,
+    "point": {
+      "lat": 0.29571107,
+      "lng": 1.9257217,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 43010800,
+    "name": "Ancient Dragon-Man",
+    "region": "Gravesite Plain",
+    "id": 9281,
+    "point": {
+      "lat": 0.25698472,
+      "lng": 1.94344548,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 12010850,
+    "name": "Dragonkin Soldier (Lake of Rot)",
+    "region": "Underground",
+    "id": 12010850,
+    "point": {
+      "lat": 0.36710946,
+      "lng": -0.80021603,
+      "layer": "underground"
+    }
+  },
+  {
+    "flag": 12020830,
+    "name": "Dragonkin Soldier (Siofra River)",
+    "region": "Underground",
+    "id": 12020830,
+    "point": {
+      "lat": 0.29835308,
+      "lng": -0.67475367,
+      "layer": "underground"
+    }
+  },
+  {
+    "flag": 12030390,
+    "name": "Crucible Knight Siluria",
+    "region": "Underground",
+    "id": 12030390,
+    "point": {
+      "lat": 0.43654465,
+      "lng": -0.72347589,
+      "layer": "underground"
+    }
+  },
+  {
+    "flag": 18000850,
+    "name": "Soldier of Godrick",
+    "region": "Limgrave",
+    "id": 18000850,
+    "point": {
+      "lat": 0.6125659,
+      "lng": -0.72058901,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1033420800,
+    "name": "Alecto, Black Knife Ringleader",
+    "region": "Moonlight Altar",
+    "id": 1033420800,
+    "point": {
+      "lat": 0.68479496,
+      "lng": -0.82575942,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1033430800,
+    "name": "Erdtree Avatar (SW)",
+    "region": "Liurnia of the Lakes",
+    "id": 1033430800,
+    "point": {
+      "lat": 0.69341491,
+      "lng": -0.82219414,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1033450800,
+    "name": "Bols, Carian Knight",
+    "region": "Liurnia of the Lakes",
+    "id": 1033450800,
+    "point": {
+      "lat": 0.71277776,
+      "lng": -0.82624161,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1034420800,
+    "name": "Glintstone Dragon Adula",
+    "region": "Moonlight Altar",
+    "id": 1034420800,
+    "point": {
+      "lat": 0.67980906,
+      "lng": -0.80752769,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1034450800,
+    "name": "Glintstone Dragon Smarag",
+    "region": "Liurnia of the Lakes",
+    "id": 1034450800,
+    "point": {
+      "lat": 0.71582039,
+      "lng": -0.81521782,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1034480800,
+    "name": "Royal Revenant",
+    "region": "Liurnia of the Lakes",
+    "id": 1034480800,
+    "point": {
+      "lat": 0.7503845,
+      "lng": -0.81101619,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1035420800,
+    "name": "Omenkiller",
+    "region": "Liurnia of the Lakes",
+    "id": 1035420800,
+    "point": {
+      "lat": 0.68033474,
+      "lng": -0.80365458,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1035530800,
+    "name": "Magma Wyrm (Mt. Gelmir)",
+    "region": "Mt. Gelmir",
+    "id": 1035530800,
+    "point": {
+      "lat": 0.79848284,
+      "lng": -0.80196762,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1036450800,
+    "name": "Death Rite Bird (Liurnia of the Lakes)",
+    "region": "Liurnia of the Lakes",
+    "id": 1036450800
+  },
+  {
+    "flag": 1036480800,
+    "name": "Night's Cavalry (Bellum Highway)",
+    "region": "Bellum Highway",
+    "id": 1036480800
+  },
+  {
+    "flag": 1036500800,
+    "name": "Onyx Lord (Liurnia of the Lakes)",
+    "region": "Liurnia of the Lakes",
+    "id": 1036500800,
+    "point": {
+      "lat": 0.76944663,
+      "lng": -0.78586184,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1036540800,
+    "name": "Full-Grown Fallingstar Beast",
+    "region": "Mt. Gelmir",
+    "id": 1036540800,
+    "point": {
+      "lat": 0.8113645,
+      "lng": -0.78698828,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1037420800,
+    "name": "Deathbird (Liurnia of the Lakes)",
+    "region": "Liurnia of the Lakes",
+    "id": 1037420800
+  },
+  {
+    "flag": 1037460800,
+    "name": "Bell Bearing Hunter (Liurnia of the Lakes)",
+    "region": "Liurnia of the Lakes",
+    "id": 1037460800,
+    "point": {
+      "lat": 0.7254564,
+      "lng": -0.78215206,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1037510800,
+    "name": "Ancient Dragon Lansseax",
+    "region": "Altus Plateau",
+    "id": 1037510800,
+    "point": {
+      "lat": 0.78208233,
+      "lng": -0.77531887,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1037530800,
+    "name": "Demi-Human Queen Maggie",
+    "region": "Mt. Gelmir",
+    "id": 1037530800,
+    "point": {
+      "lat": 0.79803704,
+      "lng": -0.77956839,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1037540810,
+    "name": "Ulcerated Tree Spirit (Mt. Gelmir)",
+    "region": "Mt. Gelmir",
+    "id": 1037540810,
+    "point": {
+      "lat": 0.80978232,
+      "lng": -0.78150692,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1038410800,
+    "name": "Adan, Thief of Fire",
+    "region": "Liurnia of the Lakes",
+    "id": 1038410800,
+    "point": {
+      "lat": 0.66478346,
+      "lng": -0.76894521,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1038480800,
+    "name": "Erdtree Avatar (NE)",
+    "region": "Liurnia of the Lakes",
+    "id": 1038480800,
+    "point": {
+      "lat": 0.74258967,
+      "lng": -0.77038055,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1038510800,
+    "name": "Demi-Human Queen Gilika",
+    "region": "Altus Plateau",
+    "id": 1038510800,
+    "point": {
+      "lat": 0.77998533,
+      "lng": -0.77047896,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1038520800,
+    "name": "Tibia Mariner (Altus Plateau)",
+    "region": "Altus Plateau",
+    "id": 1038520800
+  },
+  {
+    "flag": 1039430800,
+    "name": "Night's Cavalry (Liurnia of the Lakes)",
+    "region": "Liurnia of the Lakes",
+    "id": 1039430800
+  },
+  {
+    "flag": 1039440800,
+    "name": "Tibia Mariner (Liurnia of the Lakes)",
+    "region": "Liurnia of the Lakes",
+    "id": 1039440800,
+    "point": {
+      "lat": 0.70128968,
+      "lng": -0.76160119,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1039500800,
+    "name": "Godefroy the Grafted",
+    "region": "Altus Plateau",
+    "id": 1039500800,
+    "point": {
+      "lat": 0.7652837,
+      "lng": -0.76005731,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1039510800,
+    "name": "Night's Cavalry (Altus Plateau)",
+    "region": "Altus Plateau",
+    "id": 1039510800,
+    "point": {
+      "lat": 0.77521063,
+      "lng": -0.75882272,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1040520800,
+    "name": "Black Knife Assassin (Sainted Hero's Grave)",
+    "region": "Altus Plateau",
+    "id": 1040520800,
+    "point": {
+      "lat": 0.79126161,
+      "lng": -0.74489704,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1040530800,
+    "name": "Sanguine Noble",
+    "region": "Altus Plateau",
+    "id": 1040530800,
+    "point": {
+      "lat": 0.8049816,
+      "lng": -0.751098,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1041500800,
+    "name": "Fallingstar Beast (Altus Plateau)",
+    "region": "Altus Plateau",
+    "id": 1041500800,
+    "point": {
+      "lat": 0.77366457,
+      "lng": -0.73428849,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1041510800,
+    "name": "Tree Sentinel Duo",
+    "region": "Altus Plateau",
+    "id": 1041510800,
+    "point": {
+      "lat": 0.77861715,
+      "lng": -0.73221778,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1041530800,
+    "name": "Wormface",
+    "region": "Altus Plateau",
+    "id": 1041530800,
+    "point": {
+      "lat": 0.80318388,
+      "lng": -0.73945456,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1042330800,
+    "name": "Ancient Hero of Zamor (Weeping Peninsula)",
+    "region": "Weeping Peninsula",
+    "id": 1042330800,
+    "point": {
+      "lat": 0.58690346,
+      "lng": -0.73060687,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1042360800,
+    "name": "Tree Sentinel",
+    "region": "Limgrave",
+    "id": 1042360800,
+    "point": {
+      "lat": 0.6171868,
+      "lng": -0.72566148,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1042370800,
+    "name": "Crucible Knight",
+    "region": "Stormhill",
+    "id": 1042370800,
+    "point": {
+      "lat": 0.62893423,
+      "lng": -0.72867911,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1042380800,
+    "name": "Deathbird (Stormhill)",
+    "region": "Stormhill",
+    "id": 1042380800,
+    "point": {
+      "lat": 0.63949307,
+      "lng": -0.71970779,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1042380850,
+    "name": "Bell Bearing Hunter (Stormhill)",
+    "region": "Stormhill",
+    "id": 1042380850,
+    "point": {
+      "lat": 0.64103243,
+      "lng": -0.72464168,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1042550800,
+    "name": "Godskin Apostle (Altus Plateau)",
+    "region": "Altus Plateau",
+    "id": 1042550800,
+    "point": {
+      "lat": 0.82223239,
+      "lng": -0.72666578,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1043330800,
+    "name": "Erdtree Avatar (Weeping Peninsula)",
+    "region": "Weeping Peninsula",
+    "id": 1043330800,
+    "point": {
+      "lat": 0.58303356,
+      "lng": -0.7165469,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1043360800,
+    "name": "Flying Dragon Agheel",
+    "region": "Limgrave",
+    "id": 1043360800,
+    "point": {
+      "lat": 0.61797271,
+      "lng": -0.71732526,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1043370800,
+    "name": "Night's Cavalry (Limgrave)",
+    "region": "Limgrave",
+    "id": 1043370800
+  },
+  {
+    "flag": 1043530800,
+    "name": "Bell Bearing Hunter (Capital Outskirts)",
+    "region": "Capital Outskirts",
+    "id": 1043530800,
+    "point": {
+      "lat": 0.80195418,
+      "lng": -0.7151098,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1044320800,
+    "name": "Deathbird (Weeping Peninsula)",
+    "region": "Weeping Peninsula",
+    "id": 1044320800
+  },
+  {
+    "flag": 1044320850,
+    "name": "Night's Cavalry (Weeping Peninsula)",
+    "region": "Weeping Peninsula",
+    "id": 1044320850
+  },
+  {
+    "flag": 1044350800,
+    "name": "Bloodhound Knight Darriwil",
+    "region": "Limgrave",
+    "id": 1044350800,
+    "point": {
+      "lat": 0.59827932,
+      "lng": -0.7039061,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1044360800,
+    "name": "Mad Pumpkin Head",
+    "region": "Limgrave",
+    "id": 1044360800,
+    "point": {
+      "lat": 0.61651565,
+      "lng": -0.70239892,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1044530800,
+    "name": "Deathbird (Capital Outskirts)",
+    "region": "Capital Outskirts",
+    "id": 1044530800,
+    "point": {
+      "lat": 0.80552138,
+      "lng": -0.70425273,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1045390800,
+    "name": "Tibia Mariner (Limgrave)",
+    "region": "Limgrave",
+    "id": 1045390800,
+    "point": {
+      "lat": 0.64819219,
+      "lng": -0.69368577,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1045520800,
+    "name": "Draconic Tree Sentinel",
+    "region": "Capital Outskirts",
+    "id": 1045520800,
+    "point": {
+      "lat": 0.79283229,
+      "lng": -0.69099313,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1047400800,
+    "name": "Putrid Avatar (Caelid)",
+    "region": "Caelid",
+    "id": 1047400800,
+    "point": {
+      "lat": 0.66352282,
+      "lng": -0.67460059,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1048370800,
+    "name": "Decaying Ekzykes",
+    "region": "Caelid",
+    "id": 1048370800,
+    "point": {
+      "lat": 0.62433441,
+      "lng": -0.66128623,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1048400800,
+    "name": "Mad Pumpkin Head Duo",
+    "region": "Caelid",
+    "id": 1048400800,
+    "point": {
+      "lat": 0.65501186,
+      "lng": -0.66433627,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1048410800,
+    "name": "Bell Bearing Hunter (Greyoll's Dragonbarrow)",
+    "region": "Greyoll's Dragonbarrow",
+    "id": 1048410800,
+    "point": {
+      "lat": 0.66711339,
+      "lng": -0.66294551,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1048510800,
+    "name": "Night's Cavalry (Forbidden Lands)",
+    "region": "Forbidden Lands",
+    "id": 1048510800,
+    "point": {
+      "lat": 0.78200324,
+      "lng": -0.66325188,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1048570800,
+    "name": "Death Rite Bird (Consecrated Snowfield)",
+    "region": "Consecrated Snowfield",
+    "id": 1048570800,
+    "point": {
+      "lat": 0.85058148,
+      "lng": -0.66397891,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1049370800,
+    "name": "Night's Cavalry (Caelid)",
+    "region": "Caelid",
+    "id": 1049370800,
+    "point": {
+      "lat": 0.62580086,
+      "lng": -0.65348306,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1049370850,
+    "name": "Death Rite Bird (Caelid)",
+    "region": "Caelid",
+    "id": 1049370850,
+    "point": {
+      "lat": 0.62683069,
+      "lng": -0.64342049,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1049380800,
+    "name": "Commander O'Niel",
+    "region": "Caelid",
+    "id": 1049380800,
+    "point": {
+      "lat": 0.63932108,
+      "lng": -0.64931869,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1049390800,
+    "name": "Nox Swordstress & Nox Priest",
+    "region": "Caelid",
+    "id": 1049390800,
+    "point": {
+      "lat": 0.65185049,
+      "lng": -0.64420142,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1049390850,
+    "name": "Battlemage Hugues",
+    "region": "Greyoll's Dragonbarrow",
+    "id": 1049390850,
+    "point": {
+      "lat": 0.64777409,
+      "lng": -0.6520084,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1049520800,
+    "name": "Black Blade Kindred (Forbidden Lands)",
+    "region": "Forbidden Lands",
+    "id": 1049520800,
+    "point": {
+      "lat": 0.79345442,
+      "lng": -0.64910123,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1050400800,
+    "name": "Elder Dragon Greyoll",
+    "region": "Greyoll's Dragonbarrow",
+    "id": 1050400800,
+    "point": {
+      "lat": 0.65629331,
+      "lng": -0.63373672,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1050560800,
+    "name": "Great Wyrm Theodorix",
+    "region": "Consecrated Snowfield",
+    "id": 1050560800,
+    "point": {
+      "lat": 0.83541894,
+      "lng": -0.63673179,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1050570800,
+    "name": "Death Rite Bird (Mountaintops of the Giants)",
+    "region": "Mountaintops of the Giants",
+    "id": 1050570800,
+    "point": {
+      "lat": 0.84191893,
+      "lng": -0.63505139,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1050570850,
+    "name": "Putrid Avatar (Consecrated Snowfield)",
+    "region": "Consecrated Snowfield",
+    "id": 1050570850,
+    "point": {
+      "lat": 0.84345277,
+      "lng": -0.64091419,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1051400800,
+    "name": "Putrid Avatar (Greyoll's Dragonbarrow)",
+    "region": "Greyoll's Dragonbarrow",
+    "id": 1051400800,
+    "point": {
+      "lat": 0.66213602,
+      "lng": -0.6246582,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1051430800,
+    "name": "Black Blade Kindred (Greyoll's Dragonbarrow)",
+    "region": "Greyoll's Dragonbarrow",
+    "id": 1051430800,
+    "point": {
+      "lat": 0.69125467,
+      "lng": -0.62681748,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1052410800,
+    "name": "Flying Dragon Greyll",
+    "region": "Greyoll's Dragonbarrow",
+    "id": 1052410800,
+    "point": {
+      "lat": 0.67600703,
+      "lng": -0.62015196,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1052410850,
+    "name": "Night's Cavalry (Greyoll's Dragonbarrow)",
+    "region": "Greyoll's Dragonbarrow",
+    "id": 1052410850,
+    "point": {
+      "lat": 0.67507347,
+      "lng": -0.61492157,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1052560800,
+    "name": "Erdtree Avatar (Mountaintops of the Giants)",
+    "region": "Mountaintops of the Giants",
+    "id": 1052560800,
+    "point": {
+      "lat": 0.8378809,
+      "lng": -0.61716651,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1053560800,
+    "name": "Roundtable Knight Vyke",
+    "region": "Mountaintops of the Giants",
+    "id": 1053560800,
+    "point": {
+      "lat": 0.82989769,
+      "lng": -0.60654389,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1248550800,
+    "name": "Night's Cavalry (Consecrated Snowfield)",
+    "region": "Consecrated Snowfield",
+    "id": 1248550800,
+    "point": {
+      "lat": 0.82152277,
+      "lng": -0.6541991,
+      "layer": "surface"
+    }
+  },
+  {
+    "flag": 1254560800,
+    "name": "Borealis the Freezing Fog",
+    "region": "Mountaintops of the Giants",
+    "id": 1254560800
+  },
+  {
+    "flag": 2044470800,
+    "name": "Rugalea the Great Red Bear",
+    "region": "Rauh Base",
+    "id": 2044470800,
+    "point": {
+      "lat": 0.32737818,
+      "lng": 1.8959212,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2045440800,
+    "name": "Ghostflame Dragon (Gravesite Plain)",
+    "region": "Gravesite Plain",
+    "id": 2045440800,
+    "point": {
+      "lat": 0.28659232,
+      "lng": 1.91141068,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2046380800,
+    "name": "Dancer of Ranah",
+    "region": "Cerulean Coast",
+    "id": 2046380800,
+    "point": {
+      "lat": 0.21969032,
+      "lng": 1.91887941,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2046400800,
+    "name": "Demi-Human Queen Marigga",
+    "region": "Cerulean Coast",
+    "id": 2046400800,
+    "point": {
+      "lat": 0.24526478,
+      "lng": 1.91687543,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2046410800,
+    "name": "Knight of the Solitary Gaol",
+    "region": "Gravesite Plain",
+    "id": 2046410800,
+    "point": {
+      "lat": 0.25915402,
+      "lng": 1.91222586,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2046450800,
+    "name": "Red Bear",
+    "region": "Gravesite Plain",
+    "id": 2046450800,
+    "point": {
+      "lat": 0.2973039,
+      "lng": 1.9245166,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2046460800,
+    "name": "Divine Beast Dancing Lion (Ancient Ruins of Rauh)",
+    "region": "Ancient Ruins of Rauh",
+    "id": 2046460800,
+    "point": {
+      "lat": 0.30998683,
+      "lng": 1.91716902,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2047390800,
+    "name": "Death Rite Bird (Charo's Hidden Grave)",
+    "region": "Charo's Hidden Grave",
+    "id": 2047390800,
+    "point": {
+      "lat": 0.23778573,
+      "lng": 1.93377593,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2047450800,
+    "name": "Black Knight Garrew",
+    "region": "Scadu Altus",
+    "id": 2047450800,
+    "point": {
+      "lat": 0.2947987,
+      "lng": 1.9296597,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2048380850,
+    "name": "Ghostflame Dragon (Cerulean Coast)",
+    "region": "Cerulean Coast",
+    "id": 2048380850,
+    "point": {
+      "lat": 0.22390831,
+      "lng": 1.93799356,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2049410800,
+    "name": "Jagged Peak Drake",
+    "region": "Jagged Peak",
+    "id": 2049410800,
+    "point": {
+      "lat": 0.25207877,
+      "lng": 1.95614739,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2049430800,
+    "name": "Ghostflame Dragon (Scadu Altus)",
+    "region": "Scadu Altus",
+    "id": 2049430800,
+    "point": {
+      "lat": 0.28379423,
+      "lng": 1.95244238,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2049430850,
+    "name": "Black Knight Edreed",
+    "region": "Scadu Altus",
+    "id": 2049430850,
+    "point": {
+      "lat": 0.27467191,
+      "lng": 1.95577562,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2049440800,
+    "name": "Dryleaf Dane",
+    "region": "Scadu Altus",
+    "id": 2049440800
+  },
+  {
+    "flag": 2049450800,
+    "name": "Ralva the Great Red Bear",
+    "region": "Scadu Altus",
+    "id": 2049450800,
+    "point": {
+      "lat": 0.30560412,
+      "lng": 1.95606796,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2050470800,
+    "name": "Tree Sentinel (Ambush)",
+    "region": "Scaduview",
+    "id": 2050470800,
+    "point": {
+      "lat": 0.32729338,
+      "lng": 1.96444375,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2050480860,
+    "name": "Tree Sentinel (Exposed)",
+    "region": "Scaduview",
+    "id": 2050480860,
+    "point": {
+      "lat": 0.33099206,
+      "lng": 1.96584978,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2051440800,
+    "name": "Rakshasa",
+    "region": "Scadu Altus",
+    "id": 2051440800,
+    "point": {
+      "lat": 0.2937569,
+      "lng": 1.97492007,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2051450800,
+    "name": "Count Ymir, Mother of Fingers",
+    "region": "Scadu Altus",
+    "id": 2051450800
+  },
+  {
+    "flag": 2052400800,
+    "name": "Jagged Peak Drake Duo",
+    "region": "Jagged Peak",
+    "id": 2052400800,
+    "point": {
+      "lat": 0.24299071,
+      "lng": 1.98302,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2052480800,
+    "name": "Fallingstar Beast (Scaduview)",
+    "region": "Scaduview",
+    "id": 2052480800,
+    "point": {
+      "lat": 0.33872875,
+      "lng": 1.98746161,
+      "layer": "shadow"
+    }
+  },
+  {
+    "flag": 2054390850,
+    "name": "Ancient Dragon Senessax",
+    "region": "Jagged Peak",
+    "id": 2054390850,
+    "point": {
+      "lat": 0.23566646,
+      "lng": 2.00462367,
+      "layer": "shadow"
+    }
+  }
+]
